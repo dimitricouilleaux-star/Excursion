@@ -1,0 +1,86 @@
+body {
+    background-image: url("Image pokemon/ac1cf3b93e20336c7d6bd1794ec1d6b8.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}   
+
+#Pokemon {
+    font-size: 100px;
+    background-color:darkgrey;
+    width: 800px;
+    text-align: center;
+    color: darkorange;
+    position: static;
+    padding: 50px;
+    margin: 50px auto;
+    border: solid 5px black;
+    font-family:fantasy;
+    letter-spacing: 10;
+    
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 330px; /* espace entre tableau et texte */
+    margin: 1px;
+    max-width: 100%;
+    overflow-x: auto;
+    
+}
+
+table {
+    border:skyblue;
+    text-align: center;
+    min-width: 600px; 
+    padding: 10px;
+    margin: 1px;
+    border:10px solid;
+    box-sizing: border-box;
+    border-collapse:collapse ;
+
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 7px;
+}
+table thead {
+    color: darkorange;
+    text-align: center;
+    font-size:30px ;
+    font-style:oblique;
+    border:violet;
+    background-color:gray; 
+}
+
+tbody {
+    text-align: center ;
+    font-size:25px ;
+    background-color: rgba(206, 125, 4, 0.692);
+    overflow: auto;
+    font-family:cursive ;
+}
+
+.texte {
+    border: solid 1px black;
+    border-radius: 50px;
+    background-color:darkgray ;
+    min-width: 500px;
+    max-width: 500px;
+    overflow-wrap: break-word;
+    text-align: center;
+    margin-top: 10px;
+    font-family:sans-serif ;
+}
+
+.texte p {
+    font-size:50px ;
+}
+
+
+.Poke {
+    width: 60px;
+}

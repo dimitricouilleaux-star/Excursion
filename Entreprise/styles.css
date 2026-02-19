@@ -1,0 +1,239 @@
+header #Titre{
+    display: flex;
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(253, 144, 2, 0.733);
+    border-radius: 120px;
+    border: 8px solid black;
+
+}
+
+header img{
+    display: flex;
+    max-height: 190px;
+    max-width: 190px;
+    margin-left:50px ;
+    opacity: 80%;
+}
+
+header ul{
+    display: flex;
+    list-style:none ;
+    text-align: center;
+    flex-direction: column;
+    row-gap: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+header a{
+    font-style: italic;
+    font-size: 50px;
+    padding: 25px;
+    background-color: rgba(240, 178, 7, 0.7);
+    border-radius: 10px;
+    
+   
+}
+
+header a:hover{
+    background-color:rgb(253, 165, 2) ;
+}
+
+body{
+    background: url("vue-moto.avif");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* hauteur écran */
+
+}
+
+.Fond-moto{
+    position: relative;
+}
+.Fond-moto img{
+    display: block;
+    width: 100%;
+    opacity: 90%;
+
+}
+
+#Titre-p{
+    position: absolute;
+    bottom: 250px;
+    background-color: rgba(38, 0, 252, 0.507);
+    opacity: 80%;
+    text-align: center;
+    font-family: fantasy;
+    color: rgb(0, 153, 255);
+    width: 100%;
+    
+}
+
+#Titre-p p{
+    text-shadow:2px 2px 4px blue;
+
+}
+.galerie{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.363);
+    row-gap: 80px;
+    gap: 50px;
+}
+.Image-moto{
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(228, 156, 0, 0.692);
+    box-shadow: black 8px 8px 9px;
+}
+
+
+.Image-moto img{
+    width: auto;
+    height: 360px;
+    box-shadow: black 2px 7px 8px;
+
+}
+
+.Image-moto p{
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+@media screen and (max-width: 768px) and (min-width: 0px) {
+    header #Titre{
+        display: flex;
+        font-size: 20px;
+        font-weight: bold;
+        border: 5px solid rgb(0, 0, 0);
+        border-radius: 50px;
+        background-color:rgba(253, 144, 2, 0.733);
+        margin-bottom: 50px;
+    }
+    header img{
+        display: none;
+  
+    }
+
+    header ul{
+        display: none;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    header a{
+        font-style: italic;
+        font-size: 50px;
+        padding: 25px;
+        background-color: rgba(240, 178, 7, 0.493);
+        border-radius: 10px;
+        
+    
+    }
+    #Titre-p{
+        position: absolute;
+        bottom: 50px;
+        background-color: rgba(255, 187, 0, 0);
+        opacity: 80%;
+        text-align: center;
+        font-family: fantasy;
+        color: rgb(255, 187, 0);
+        width: 100%;
+        
+    }
+
+    #Titre-p p{
+        text-shadow:2px 2px 4px rgb(0, 0, 0);
+
+    }
+    .Image-moto{
+        border: 2px solid green;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgba(228, 156, 0, 0.692);
+        box-shadow: black 8px 8px 9px;
+    }
+
+
+    .Image-moto img{
+        width: 100%;
+        height: auto;
+        border: 2px solid blue;
+        box-shadow: black 2px 7px 8px;
+
+    }
+}
+
+
+@media screen and (max-width:1024px)and (min-width: 768px){
+    header #Titre{
+        display: flex;
+        font-size: 40px;
+        font-weight: bold;
+        border: 5px solid rgb(255, 255, 255);
+        border-radius: 50px;
+        background-color:rgba(253, 144, 2, 0.733);
+        margin-bottom: 50px;
+    }
+    header img{
+        display: none;
+  
+    }
+
+    header ul{
+        display: none;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    header a{
+        font-style: italic;
+        font-size: 50px;
+        padding: 25px;
+        background-color: rgba(240, 178, 7, 0.493);
+        border-radius: 10px;
+        
+    
+    }
+    #Titre-p{
+        position: absolute;
+        bottom: 220px;
+        background-color: rgba(255, 187, 0, 0);
+        opacity: 80%;
+        text-align: center;
+        font-family: fantasy;
+        color: rgb(255, 187, 0);
+        width: 100%;
+        
+    }
+
+    #Titre-p p{
+        text-shadow:2px 2px 4px rgb(0, 0, 0);
+
+    }
+    .Image-moto{
+        border: 2px solid green;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgba(228, 156, 0, 0.692);
+        box-shadow: black 8px 8px 9px;
+    }
+
+
+    .Image-moto img{
+        width: 100%;
+        height: auto;
+        border: 2px solid blue;
+        box-shadow: black 2px 7px 8px;
+
+    }
+}
+
+
+    
